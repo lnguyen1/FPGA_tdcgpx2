@@ -1,0 +1,27 @@
+##################SPI INTERFACE#######################
+# Synch user clock to SCK SPI clock line
+
+#NET "user_clk" LOC = "AB13" | IOSTANDARD = LVCMOS33; 
+#NET "spi_clk"  LOC = "Y17"  | IOSTANDARD = LVCMOS33; # FMC_LA33_P
+#NET "spi_ssn"  LOC = "U14"  | IOSTANDARD = LVCMOS33; # D26, FMC_LA26_P
+#NET "spi_mosi" LOC = "R11"  | IOSTANDARD = LVCMOS33; # H22, FMC_LA19_P
+#NET "spi_miso" LOC = "T11"  | IOSTANDARD = LVCMOS33; # H23, FMC_LA19_N
+#NET "reset" 	LOC = "W6"	 | IOSTANDARD = LVCMOS33; # 3, DIP switch
+
+#########LVDS INTERFACE ###########
+# 200 MHz LVDS clock input pair into FPGA
+NET "clkin_p" LOC = "K21" | IOSTANDARD = LVDS_25;
+NET "clkin_n" LOC = "K22" | IOSTANDARD = LVDS_25;
+
+# Loop thru FPGA to output LVDS clock pair into TDC
+#NET "clkout_p" LOC = "V11" | IOSTANDARD = LVDS_25; # FMC_LA21_P 
+#NET "clkout_n" LOC = "W11" | IOSTANDARD = LVDS_25; # FMC_LA21_N
+NET "clkout_p" LOC = "Y11" | IOSTANDARD = LVDS_25; # FMC_LA21_P 
+NET "clkout_n" LOC = "AB11" | IOSTANDARD = LVDS_25; # FMC_LA21_N
+
+NET "user_clk" LOC = "AB13" | IOSTANDARD = LVCMOS33; 
+NET "spi_clk"  LOC = "G8"   | IOSTANDARD = LVCMOS33; # H7, FMC_LA02_P
+NET "spi_ssn"  LOC = "F9"   | IOSTANDARD = LVCMOS33; # H8, FMC_LA02_N
+NET "spi_mosi" LOC = "H10"  | IOSTANDARD = LVCMOS33; # C14, FMC_LA10_P
+#NET "spi_miso" LOC = "H11"  | IOSTANDARD = LVCMOS33; # C15, FMC_LA10_N
+NET "reset" 	LOC = "W6"	 | IOSTANDARD = LVCMOS33; # 3, DIP switch

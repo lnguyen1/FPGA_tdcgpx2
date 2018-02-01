@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "C:/Xilinx/spi_config_test/main_spi_config.xst" -ofn "C:/Xilinx/spi_config_test/main_spi_config.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/spi_config_test/main_spi_config.xst" -ofn "C:/Xilinx/spi_config_test/main_spi_config.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/spi_config_test/main_spi_config.xst" -ofn "C:/Xilinx/spi_config_test/main_spi_config.syr" 
+xst -intstyle ise -ifn "C:/Xilinx/spi_config_test/main_spi_config.xst" -ofn "C:/Xilinx/spi_config_test/main_spi_config.syr" 

@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Jan 31 18:18:46 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clkout_n" LOCATE = SITE "AB11" LEVEL 1;
+COMP "clkout_p" LOCATE = SITE "Y11" LEVEL 1;
+COMP "spi_mosi" LOCATE = SITE "H10" LEVEL 1;
+COMP "spi_ssn" LOCATE = SITE "F9" LEVEL 1;
+COMP "clkin_n" LOCATE = SITE "K22" LEVEL 1;
+COMP "clkin_p" LOCATE = SITE "K21" LEVEL 1;
+COMP "spi_clk" LOCATE = SITE "G8" LEVEL 1;
+COMP "reset" LOCATE = SITE "W6" LEVEL 1;
+COMP "user_clk" LOCATE = SITE "AB13" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Xilinx\spi_config_test\init.ncd
+OUTFILE=C:\Xilinx\spi_config_test\init.bit
+FAMILY=Spartan6
+PART=xc6slx45t-3fgg484
+WORKINGDIR=C:\Xilinx\spi_config_test
+LICENSE=WebPack
+USER_INFO=211298849_0_0_656
